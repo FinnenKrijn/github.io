@@ -1,0 +1,102 @@
+/*veel css hebben we bekijken van w3schools*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+body{
+  background: linear-gradient(to right, #181818, #808080);
+  margin-top: 7.5%;
+}
+
+/*dit is het filmpje van onze navbar:https://www.youtube.com/watch?v=W-nIX17Gg-Q&t=5s*/
+.nav-list{
+  background-color: #000000;
+  box-shadow: 0px 0px 10px;
+  margin: 0;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.nav-item{
+  list-style: none;
+  margin-right: 2rem;
+}
+
+.nav-item a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.nav-item:first-child{
+  margin-right: auto;
+  margin-left: 2rem;
+}
+
+.nav-item a:hover{
+  color: #D3D3D3;
+}
+
+.Logo{
+  display: flex;
+  width: 15%;
+  height: 15%;
+  margin-top: 0;
+  margin-right: auto;
+}
+
+.hometext{
+  text-align: center;
+  color: #FFFFFF;
+  line-height: 2;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.niketext{
+  text-align: center;
+  color: #FFFFFF;
+  line-height: 2;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.nikeboxes{
+  text-align: center;
+  color: #000000;
+  border-radius: 25px;
+  border: 10px solid #bfbfbf;
+  background: #F5F5F5;
+  padding: 20px;
+  width: 360px;
+  height: 300px;
+  margin-left: 3.21%;
+  margin-right: 3.21%;
+  margin-bottom: 20px;
+  display: inline-flex;
+}
+
+.contacttext{
+  text-align: center;
+  color: #FFFFFF;
+  line-height: 2;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/*media queries*/
+
+@media screen and (max-width: 600px) {
+  .nav-item a {
+    float: none;
+    width: 100%;
+  }
+}
